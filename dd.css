@@ -1,0 +1,96 @@
+*{
+  font-family: Comic Neue;
+}
+.banner{
+  background-color: blue;
+  padding: 10px 20px 10px 20px;
+  color:white;
+  margin: -8px -8px -10px -8px;
+  font-size: 20px;
+}
+ul.nav{
+  list-style-type: none;
+  margin: 10px -8px 0 -8px;
+  padding: 0.5em 0 0.5em 0;
+  background-color: #0101aa;
+}
+.nav > li{
+  display:inline;
+  padding: 0.5em 0 0.5em 0;
+}
+.nav > li:hover{
+  background-color: #010166;
+}
+.nav > li > a{
+  padding: 0 15% 0 15%;
+  text-decoration: none;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 18px;
+}
+h1{
+  margin: 0.5em 0 1em 0;
+  background-color: #229922;
+  margin-left: -33%;
+  margin-right: -33%;
+}
+
+#leadMessage{
+  flex: auto;
+  flex-wrap: wrap;
+  margin: 0 20% 5% 20%;
+  text-align: center;
+  line-height: 2;
+}
+#bodyText{
+  padding: 30px;
+}
+.divided{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.divided2{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex: 0 50% 50% 50%;
+  flex-wrap: wrap;
+}
+#subdivided{
+  width: 50%;
+  object-fit: contain;
+  margin: 0 auto 0 auto;
+  align-items: center;
+}
+#centerText{
+  width: 50%;
+  object-fit: contain;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+img#subdivided{
+  border: 2px solid black;
+  margin-left: 25%;
+}
+#boldlink{
+  text-decoration: none;
+}
+#boldlink:hover{
+  font-weight: bold;
+}
+.bg-light{
+  background-color: blue !important;
+}
+.navbar-brand{
+  color: #ddd !important;
+  font-weight: bold;
+}
+.nav-link{
+  color: #ddd !important;
+}
+.btn-secondary{
+  background-color: blue !important;
+  border-color: blue !important;
+}
